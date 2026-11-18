@@ -21,11 +21,11 @@ and which separator to use.
 ```php
 echo $faker->creditCardNumber();
 
-// '4556817762319090', '5151791946409422'
+// '443913741655854', '5151791946409422'
 
 echo $faker->creditCardNumber('Visa');
 
-// '4539710900519030', '4929494068680706'
+// '4539710900519', '4929494068680706'
 
 echo $faker->creditCardNumber('Visa', true);
 
@@ -61,7 +61,7 @@ The string is formatted using `m/y`. Optionally, a second parameter can be passe
 ```php
 echo $faker->creditCardExpirationDateString();
 
-// '09/23', '06/21'
+// '12/27', '06/21'
 
 echo $faker->creditCardExpirationDateString(false);
 
